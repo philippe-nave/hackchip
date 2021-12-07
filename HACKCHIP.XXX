@@ -1,0 +1,813 @@
+<html>
+<head><title>Hacking Chip's Challenge</title></head>
+<body bgcolor=white>
+
+<center>
+<table border=1 cellspacing=0 cellpadding=2>
+<tr><th>Level</th><th>Name</th><th>Time</th><th>Chips</th><th>Help</th><th>Password</th></tr>
+
+<tr>
+<td align=center>1</td>
+<td>LESSON&nbsp;1</td><td align=center>100</td><td align=center>11</td>
+<td>Collect chips to get past the chip socket. Use keys to open doors.</td>
+<td align=center>BDHP</td>
+</tr>
+
+<tr>
+<td align=center>2</td>
+<td>LESSON&nbsp;2</td><td align=center>100</td><td align=center>4</td>
+<td>Push blocks into water to make dirt. Watch out for monsters.</td>
+<td align=center>JXMJ</td>
+</tr>
+
+<tr>
+<td align=center>3</td>
+<td>LESSON&nbsp;3</td><td align=center>100</td><td align=center>4</td>
+<td>Suction-boots for force floors. Fire boots  for fire. Flippers
+for water. Skates for ice.</td>
+<td align=center>ECBQ</td>
+</tr>
+
+<tr>
+<td align=center>4</td>
+<td>LESSON&nbsp;4</td><td align=center>150</td><td align=center>9</td> 
+<td>The blue button controls the tanks. The green button toggles walls.
+Sometimes things are hidden under blocks.</td>
+<td align=center>YMCJ</td>
+</tr>
+
+<tr>
+<td align=center>5</td>
+<td>LESSON&nbsp;5</td><td align=center>100</td><td align=center>0</td> 
+<td>The red button controls the clone machine.
+The brown button opens traps.</td>
+<td align=center>TQKB</td>
+</tr>
+
+<tr>
+<td align=center>6</td>
+<td>LESSON&nbsp;6</td><td align=center>100</td><td align=center>4</td>
+<td>Blue walls may be fake. Some invisible walls never appear.
+There can be extra chips.</td>
+<td align=center>WNLD</td>
+</tr>
+
+<tr>
+<td align=center>7</td>
+<td>LESSON&nbsp;7</td><td align=center>150</td><td align=center>3</td> 
+<td>Teleports can be directional. The thief takes your tools.
+New walls can appear under you.</td>
+<td align=center>FXQO</td>
+</tr>
+
+<tr>
+<td align=center>8</td> 
+<td>LESSON&nbsp;8</td><td align=center>100</td><td align=center>1</td>
+<td>Monsters are stopped by dirt and gravel.</td>
+<td align=center>NHAG</td>
+</tr>
+
+<tr>
+<td align=center>9</td>
+<td>NUTS&nbsp;AND&nbsp;BOLTS</td><td align=center>400</td><td align=center>9</td> 
+<td>&nbsp;</td>
+<td align=center>KCRE</td>
+</tr>
+
+<tr>
+<td align=center>10</td>
+<td>BRUSHFIRE</td><td align=center>80</td><td align=center>0</td> 
+<td>&nbsp;</td>
+<td align=center>UVWS</td>
+</tr>
+
+<tr>
+<td align=center>11</td>
+<td>TRINITY</td><td align=center>300</td><td align=center>3</td> 
+<td>&nbsp;</td>
+<td align=center>CNPE</td>
+</tr>
+
+<tr>
+<td align=center>12</td>
+<td>HUNT</td><td align=center>400</td><td align=center>652</td>
+<td>&nbsp;</td>
+<td align=center>WVHI</td>
+</tr>
+
+<tr>
+<td align=center>13</td>
+<td>SOUTHPOLE</td><td align=center>0</td><td align=center>0</td> 
+<td>What was the name of this level?</td>
+<td align=center>OCKS</td>
+</tr>
+
+<tr>
+<td align=center>14</td>
+<td>TELEBLOCK</td><td align=center>250</td><td align=center>4</td> 
+<td>&nbsp;</td>
+<td align=center>BTDY</td>
+</tr>
+
+<tr>
+<td align=center>15</td>
+<td>ELEMENTARY</td><td align=center>250</td><td align=center>12</td>
+<td>&nbsp;</td>
+<td align=center>COZQ</td>
+</tr>
+
+<tr>
+<td align=center>16</td>
+<td>CELLBLOCKED</td><td align=center>0</td><td align=center>0</td>
+<td>Press Ctrl+R (or choose Restart from the Level menu) to
+restart any level.</td>
+<td align=center>SKKK</td>
+</tr>
+
+<tr>
+<td align=center>17</td>
+<td>NICE&nbsp;DAY</td><td align=center>100</td><td align=center>46</td>
+<td>&nbsp;</td>
+<td align=center>AJMG</td>
+</tr>
+
+<tr>
+<td align=center>18</td>
+<td>CASTLE&nbsp;MOAT</td><td align=center>600</td><td align=center>0</td> 
+<td>&nbsp;</td>
+<td align=center>HMJL</td>
+</tr>
+
+<tr>
+<td align=center>19</td>
+<td>DIGGER</td><td align=center>210</td><td align=center>146</td>
+<td>&nbsp;</td>
+<td align=center>MRHR</td>
+</tr>
+
+<tr>
+<td align=center>20</td>
+<td>TOSSED&nbsp;SALAD</td><td align=center>400</td><td align=center>15</td>
+<td>&nbsp;</td>
+<td align=center>KGFP</td>
+</tr>
+
+<tr>
+Level  21  "ICEBERG" Time Limit:  150  seconds Chips: 9 
+Password : UGRW
+</tr>
+
+<tr>
+Level  22  "FORCED ENTRY" Time Limit:  300  seconds Chips: 8 
+Password : WZIN
+</tr>
+
+<tr>
+Level  23  "BLOBNET" Time Limit:  500  seconds Chips: 88 
+Password : HUVE
+</tr>
+
+<tr>
+Level  24  "OORTO GELD" Time Limit:  550  seconds Chips: 48 
+Password : UNIZ
+</tr>
+
+<tr>
+Level  25  "BLINK" Time Limit:  600  seconds Chips: 28 
+Password : PQGV
+</tr>
+
+<tr>
+Level  26  "CHCHCHIPS" Time Limit:  300  seconds Chips: 170 
+Password : YVYJ
+</tr>
+
+<tr>
+Level  27  "GO WITH THE FLOW" Time Limit:  200  seconds Chips: 6 
+Password : IGGZ
+</tr>
+
+<tr>
+Level  28  "PING PONG" Time Limit:  300  seconds Chips: 22 
+Password : UJDO
+</tr>
+
+<tr>
+Level  29  "ARCTICFLOW" Time Limit:  400  seconds Chips: 5 
+Password : QGOL
+</tr>
+
+<tr>
+Level  30  "MISHMESH" Time Limit:  600  seconds Chips: 36 
+Password : BQZP
+</tr>
+
+<tr>
+Level  31  "KNOT" Time Limit:  29  seconds Chips: 118 
+Password : RYMS
+</tr>
+
+<tr>
+Level  32  "SCAVENGER HUNT" Time Limit:  600  seconds Chips: 3 
+Password : PEFS
+</tr>
+
+<tr>
+Level  33  "ON THE ROCKS" Time Limit:  0  seconds Chips: 9 
+Password : BQSN
+</tr>
+
+<tr>
+Level  34  "CYPHER" Time Limit:  350  seconds Chips: 14 
+Password : NQFI
+</tr>
+
+<tr>
+Level  35  "LEMMINGS" Time Limit:  600  seconds Chips: 10 
+Password : VDTM
+</tr>
+
+<tr>
+Level  36  "LADDER" Time Limit:  350  seconds Chips: 28 
+Password : NXIS
+</tr>
+
+<tr>
+Level  37  "SEEING STARS" Time Limit:  800  seconds Chips: 56 
+Password : VQNK
+</tr>
+
+<tr>
+Level  38  "SAMPLER" Time Limit:  500  seconds Chips: 1 
+Password : BIFA
+</tr>
+
+<tr>
+Level  39  "GLUT" Time Limit:  20  seconds Chips: 29 
+Password : ICXY
+</tr>
+
+<tr>
+Level  40  "FLOORGASBORG" Time Limit:  200  seconds Chips: 0 
+Password : YWFH
+</tr>
+
+<tr>
+Level  41  "I.C. YOU" Time Limit:  250  seconds Chips: 60 
+Teleport direction sequence 1st rdul 2nd lulu.
+Password : GKWD
+</tr>
+
+<tr>
+Level  42  "BEWARE OF BUG" Time Limit:  300  seconds Chips: 27 
+Password : LMFU
+</tr>
+
+<tr>
+Level  43  "LOCK BLOCK" Time Limit:  200  seconds Chips: 0 
+Password : UJDP
+</tr>
+
+<tr>
+Level  44  "REFRACTION" Time Limit:  300  seconds Chips: 32 
+Password : TXHL
+</tr>
+
+<tr>
+Level  45  "MONSTER LAB" Time Limit:  300  seconds Chips: 0 
+Password : OVPZ
+</tr>
+
+<tr>
+Level  46  "THREE DOORS" Time Limit:  250  seconds Chips: 14 
+Password : HDQJ
+</tr>
+
+<tr>
+Level  47  "PIER SEVEN" Time Limit:  300  seconds Chips: 4 
+Password : LXPP
+</tr>
+
+<tr>
+Level  48  "MUGGER SQUARE" Time Limit:  300  seconds Chips: 6 
+Password : JYSF
+</tr>
+
+<tr>
+Level  49  "PROBLEMS" Time Limit:  200  seconds Chips: 23 
+Password : PPXI
+</tr>
+
+<tr>
+Level  50  "DIGDIRT" Time Limit:  350  seconds Chips: 16 
+Password : QBDH
+</tr>
+
+<tr>
+Level  51  "I SLIDE" Time Limit:  750  seconds Chips: 13 
+Password : IGGJ
+</tr>
+
+<tr>
+Level  52  "THE LAST LAUGH" Time Limit:  400  seconds Chips: 2 
+Password : PPHT
+</tr>
+
+<tr>
+Level  53  "TRAFFIC COP" Time Limit:  500  seconds Chips: 0 
+Make those pesky monsters follow a path to the door trigger.
+Password : CGNX
+</tr>
+
+<tr>
+Level  54  "GRAIL" Time Limit:  350  seconds Chips: 68 
+Password : ZMGC
+</tr>
+
+<tr>
+Level  55  "POTPOURRI" Time Limit:  100  seconds Chips: 30 
+Password : SJES
+</tr>
+
+<tr>
+Level  56  "DEEPFREEZE" Time Limit:  250  seconds Chips: 8 
+Password : FCJE
+</tr>
+
+<tr>
+Level  57  "STRANGE MAZE" Time Limit:  400  seconds Chips: 35 
+Password : UBXU
+</tr>
+
+<tr>
+Level  58  "LOOP AROUND" Time Limit:  600  seconds Chips: 9 
+Password : YBLT
+</tr>
+
+<tr>
+Level  59  "HIDDEN DANGER" Time Limit:  400  seconds Chips: 8 
+Password : BLDM
+</tr>
+
+<tr>
+Level  60  "SCOUNDREL" Time Limit:  294  seconds Chips: 12 
+Password : ZYVI
+</tr>
+
+<tr>
+Level  61  "RINK" Time Limit:  0  seconds Chips: 16 
+Password : RMOW
+</tr>
+
+<tr>
+Level  62  "SLO MO" Time Limit:  300  seconds Chips: 0 
+Password : TIGW
+</tr>
+
+<tr>
+Level  63  "BLOCK FACTORY" Time Limit:  500  seconds Chips: 7 
+Password : GOHX
+</tr>
+
+<tr>
+Level  64  "SPOOKS" Time Limit:  600  seconds Chips: 41 
+Password : IJPQ
+</tr>
+
+<tr>
+Level  65  "AMSTERDAM" Time Limit:  500  seconds Chips: 51 
+Password : UPUN
+</tr>
+
+<tr>
+Level  66  "VICTIM" Time Limit:  300  seconds Chips: 12 
+Password : ZIKZ
+</tr>
+
+<tr>
+Level  67  "CHIPMINE" Time Limit:  700  seconds Chips: 28 
+Password : GGJA
+</tr>
+
+<tr>
+Level  68  "EENY MINY MOE" Time Limit:  650  seconds Chips: 52 
+Password : RTDI
+</tr>
+
+<tr>
+Level  69  "BOUNCE CITY" Time Limit:  300  seconds Chips: 0 
+Password : NLLY
+</tr>
+
+<tr>
+Level  70  "NIGHTMARE" Time Limit:  199  seconds Chips: 0 
+Password : GCCG
+</tr>
+
+<tr>
+Level  71  "CORRIDOR" Time Limit:  500  seconds Chips: 23 
+Password : LAJM
+</tr>
+
+<tr>
+Level  72  "REVERSE ALLEY" Time Limit:  0  seconds Chips: 35 
+Password : EKFT
+</tr>
+
+<tr>
+Level  73  "MORTON" Time Limit:  600  seconds Chips: 28 
+Password : QCCR
+</tr>
+
+<tr>
+Level  74  "PLAYTIME" Time Limit:  400  seconds Chips: 4 
+Password : MKNH
+</tr>
+
+<tr>
+Level  75  "STEAM" Time Limit:  500  seconds Chips: 0 
+Password : MJDV
+</tr>
+
+<tr>
+Level  76  "FOUR PLEX" Time Limit:  550  seconds Chips: 20 
+Password : NMRH
+</tr>
+
+<tr>
+Level  77  "INVINCIBLE CHAMPION" Time Limit:  500  seconds Chips: 5 
+Password : FHIC
+</tr>
+
+<tr>
+Level  78  "FORCE SQUARE" Time Limit:  500  seconds Chips: 13 
+Password : GRMO
+</tr>
+
+<tr>
+Level  79  "DRAWN AND QUARTERED" Time Limit:  300  seconds Chips: 56 
+Password : JINU
+</tr>
+
+<tr>
+Level  80  "VANISHING ACT" Time Limit:  800  seconds Chips: 17 
+Password : EVUG
+</tr>
+
+<tr>
+Level  81  "WRITERS BLOCK" Time Limit:  0  seconds Chips: 56 
+Password : SCWF
+</tr>
+
+<tr>
+Level  82  "SOCIALIST ACTION" Time Limit:  999  seconds Chips: 0 
+Password : LLIO
+</tr>
+
+<tr>
+Level  83  "UP THE BLOCK" Time Limit:  400  seconds Chips: 14 
+Password : OVPJ
+</tr>
+
+<tr>
+Level  84  "WARS" Time Limit:  600  seconds Chips: 5 
+Password : UVEO
+</tr>
+
+<tr>
+Level  85  "TELENET" Time Limit:  300  seconds Chips: 15 
+Password : LEBX
+</tr>
+
+<tr>
+Level  86  "SUICIDE" Time Limit:  400  seconds Chips: 0 
+Password : FLHH
+</tr>
+
+<tr>
+Level  87  "CITYBLOCK" Time Limit:  0  seconds Chips: 34 
+Password : YJYS
+</tr>
+
+<tr>
+Level  88  "SPIRALS" Time Limit:  400  seconds Chips: 12 
+Password : WZYV
+</tr>
+
+<tr>
+Level  89  "BLOCK BUSTER" Time Limit:  450  seconds Chips: 5 
+Password : VCZO
+</tr>
+
+<tr>
+Level  90  "PLAYHOUSE" Time Limit:  400  seconds Chips: 121 
+Password : OLLM
+</tr>
+
+<tr>
+Level  91  "JUMPING SWARM" Time Limit:  400  seconds Chips: 22 
+Password : JPQG
+</tr>
+
+<tr>
+Level  92  "VORTEX" Time Limit:  500  seconds Chips: 6 
+Password : DTMI
+</tr>
+
+<tr>
+Level  93  "ROADSIGN" Time Limit:  800  seconds Chips: 4 
+Password : REKF
+</tr>
+
+<tr>
+Level  94  "NOW YOU SEE IT" Time Limit:  0  seconds Chips: 7 
+Password : EWCS
+</tr>
+
+<tr>
+Level  95  "FOUR SQUARE" Time Limit:  350  seconds Chips: 2 
+Password : BIFQ
+</tr>
+
+<tr>
+Level  96  "PARANOIA" Time Limit:  399  seconds Chips: 46 
+You don't need the fire boots, but they could help later on.
+Password : BIFQ
+</tr>
+
+<tr>
+Level  97  "METASTABLE TO CHAOS" Time Limit:  300  seconds Chips: 0 
+Password : IOCS
+</tr>
+
+<tr>
+Level  98  "SHRINKING" Time Limit:  350  seconds Chips: 7 
+Password : TKWD
+</tr>
+
+<tr>
+Level  99  "CATACOMBS" Time Limit:  399  seconds Chips: 8 
+Password : XUVU
+</tr>
+
+<tr>
+Level  100  "COLONY" Time Limit:  0  seconds Chips: 48 
+Password : QJXR
+</tr>
+
+<tr>
+Level  101  "APARTMENT" Time Limit:  300  seconds Chips: 34 
+Password : RPIR
+</tr>
+
+<tr>
+Level  102  "ICEHOUSE" Time Limit:  200  seconds Chips: 3 
+Password : VDDU
+</tr>
+
+<tr>
+Level  103  "MEMORY" Time Limit:  600  seconds Chips: 37 
+Password : PTAC
+</tr>
+
+<tr>
+Level  104  "JAILER" Time Limit:  300  seconds Chips: 82 
+Password : KWNL
+</tr>
+
+<tr>
+Level  105  "SHORT CIRCUIT" Time Limit:  350  seconds Chips: 37 
+Password : YNEG
+</tr>
+
+<tr>
+Level  106  "KABLAM" Time Limit:  0  seconds Chips: 0 
+Password : NXYB
+</tr>
+
+<tr>
+Level  107  "BALLS O FIRE" Time Limit:  300  seconds Chips: 50 
+Password : ECRE
+</tr>
+
+<tr>
+Level  108  "BLOCK OUT" Time Limit:  350  seconds Chips: 31 
+Password : LIOC
+</tr>
+
+<tr>
+Level  109  "TORTURECHAMBER" Time Limit:  150  seconds Chips: 4 
+Password : KZQR
+</tr>
+
+<tr>
+Level  110  "CHILLER" Time Limit:  399  seconds Chips: 16 
+Password : XBAO
+</tr>
+
+<tr>
+Level  111  "TIME LAPSE" Time Limit:  0  seconds Chips: 4 
+Password : KRQJ
+</tr>
+
+<tr>
+Level  112  "FORTUNE FAVOURS THE" Time Limit:  0  seconds Chips: 4 
+Password : NJLA
+</tr>
+
+<tr>
+Level  113  "OPEN QUESTION" Time Limit:  500  seconds Chips: 5 
+The eigth block is open.
+Password : PTAS
+</tr>
+
+<tr>
+Level  114  "DECEPTION" Time Limit:  200  seconds Chips: 12 
+Password : JWNL
+</tr>
+
+<tr>
+Level  115  "OVERSEA DELIVERY" Time Limit:  0  seconds Chips: 0 
+Push the blocks to the correct island to reach the exit.
+Password : EGRW
+</tr>
+
+<tr>
+Level  116  "BLOCK BUSTER II" Time Limit:  750  seconds Chips: 27 
+Password : HXMF
+</tr>
+
+<tr>
+Level  117  "THE MARSH" Time Limit:  0  seconds Chips: 0 
+Password : FPZT
+</tr>
+
+<tr>
+Level  118  "MISS DIRECTION" Time Limit:  300  seconds Chips: 0 
+Password : OSCW
+</tr>
+
+<tr>
+Level  119  "SLIDE STEP" Time Limit:  250  seconds Chips: 38 
+Password : PHTY
+</tr>
+
+<tr>
+Level  120  "ALPHABET SOUP" Time Limit:  0  seconds Chips: 11 
+Password : FLXP
+</tr>
+
+<tr>
+Level  121  "PERFECT MATCH" Time Limit:  0  seconds Chips: 0 
+Match the inner to the outer.   A perfect match.
+Password : BPYS
+</tr>
+
+<tr>
+Level  122  "TOTALLY FAIR" Time Limit:  300  seconds Chips: 6 
+Password : SJUM
+</tr>
+
+<tr>
+Level  123  "THE PRISONER" Time Limit:  299  seconds Chips: 3 
+Password : YKZE
+</tr>
+
+<tr>
+Level  124  "FIRETRAP" Time Limit:  800  seconds Chips: 22 
+Password : TASX
+</tr>
+
+<tr>
+Level  125  "MIXED NUTS" Time Limit:  0  seconds Chips: 71 
+Password : MYRT
+</tr>
+
+<tr>
+Level  126  "BLOCK N ROLL" Time Limit:  600  seconds Chips: 36 
+Password : QRLD
+</tr>
+
+<tr>
+Level  127  "SKELZIE" Time Limit:  500  seconds Chips: 21 
+Password : JMWZ
+</tr>
+
+<tr>
+Level  128  "ALL FULL" Time Limit:  400  seconds Chips: 182 
+Password : FTLA
+</tr>
+
+<tr>
+Level  129  "LOBSTER TRAP" Time Limit:  300  seconds Chips: 6 
+Password : HEAN
+</tr>
+
+<tr>
+Level  130  "ICE CUBE" Time Limit:  0  seconds Chips: 32 
+Password : XHIZ
+</tr>
+
+<tr>
+Level  131  "TOTALLY UNFAIR" Time Limit:  60  seconds Chips: 6 
+Remember sjum.
+Password : FIRD
+</tr>
+
+<tr>
+Level  132  "MIX UP" Time Limit:  999  seconds Chips: 28 
+Password : ZYFA
+</tr>
+
+<tr>
+Level  133  "BLOBDANCE" Time Limit:  0  seconds Chips: 30 
+Password : TIGG
+</tr>
+
+<tr>
+Level  134  "PAIN" Time Limit:  0  seconds Chips: 7 
+Password : XPPH
+</tr>
+
+<tr>
+Level  135  "TRUST ME" Time Limit:  300  seconds Chips: 0 
+Password : LYWO
+</tr>
+
+<tr>
+Level  136  "DOUBLEMAZE" Time Limit:  0  seconds Chips: 38 
+Password : LUZL
+</tr>
+
+<tr>
+Level  137  "GOLDKEY" Time Limit:  450  seconds Chips: 0 
+Password : HPPX
+</tr>
+
+<tr>
+Level  138  "PARTIAL POST" Time Limit:  300  seconds Chips: 0 
+Block teleporters to re-route them.
+Password : LUJT
+</tr>
+
+<tr>
+Level  139  "YORKHOUSE" Time Limit:  0  seconds Chips: 388 
+Password : VLHH
+</tr>
+
+<tr>
+Level  140  "ICEDEATH" Time Limit:  300  seconds Chips: 0 
+Password : SJUK
+</tr>
+
+<tr>
+Level  141  "UNDERGROUND" Time Limit:  0  seconds Chips: 15 
+Password : MCJE
+</tr>
+
+<tr>
+Level  142  "PENTAGRAM" Time Limit:  0  seconds Chips: 10 
+Walk the lines of this inscribed pentagram to avoid its curse.
+Password : UCRY
+</tr>
+
+<tr>
+Level  143  "STRIPES?" Time Limit:  0  seconds Chips: 23 
+Password : OKOR
+</tr>
+
+<tr>
+Level  144  "FIREFLIES" Time Limit:  0  seconds Chips: 30 
+Password : GVXQ
+</tr>
+
+<tr>
+Level  145  "Thanks to..." Time Limit:  0  seconds Chips: 0 
+Special thanks also to the WEP 4 test team!
+Password : TONY
+</tr>
+
+<tr>
+Level  146  "CAKE WALK" Time Limit:  999  seconds Chips: 13 
+Password : JHEN
+</tr>
+
+<tr>
+Level  147  "FORCE FIELD" Time Limit:  0  seconds Chips: 24 
+Password : COZA
+</tr>
+
+<tr>
+Level  148  "MIND BLOCK" Time Limit:  0  seconds Chips: 12 
+Password : RGSK
+</tr>
+
+<tr>
+Level  149  "SPECIAL" Time Limit:  999  seconds Chips: 0 
+This spot would be too obvious!
+Password : DIGW
+</tr>
+
+</table></center>
+
+</body></html>

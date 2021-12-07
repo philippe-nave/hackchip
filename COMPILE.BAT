@@ -1,0 +1,5 @@
+QB %1.BAS /O /E ;
+DEL %1.EXE
+DEL %1.MAP
+LINK %1 + GWCOM,%1,%1.MAP,BCOM20.LIB
+
