@@ -208,7 +208,11 @@ sub dump_level {
       my $password_crypt_num = ord(substr $buffer, $local_finger, 1);
       $local_finger++;
       # print "$password_crypt_num ";
-      my $password_char = decrypt_passchar($password_crypt_num);
+
+      # replaced subroutine lookup with the simple xor function
+      # my $password_char = decrypt_passchar($password_crypt_num);
+      my $password_char = chr($password_crypt_num ^ 153);
+
       print "$password_char";
    }
    print "\n";
