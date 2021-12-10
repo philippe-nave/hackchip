@@ -32,21 +32,32 @@ print "Got $max_level from lohi subroutine (149 expected)\n";
 $finger = 6;   # pointing into binary wad - start of first level
 $level = 1;    # current level
 
-dump_level();
-$level++;
-dump_level();
-$level++;
-dump_level();
-$level++;
+# $finger_increment = dump_level($finger);
+# $level++;
+# $finger = $finger + $finger_increment + 2;
+# 
+# $finger_increment = dump_level($finger);
+# $level++;
+# $finger = $finger + $finger_increment + 2;
+# 
+# $finger_increment = dump_level($finger);
+# $level++;
+# $finger = $finger + $finger_increment + 2;
+# 
+# $finger_increment = dump_level($finger);
+# $level++;
+# $finger = $finger + $finger_increment + 2;
 
-# for ($level=1; $level<=10; $level++) {
-#    dump_level();
-# }
+for ($level=1; $level<=$max_level; $level++) {
+   $finger_increment = dump_level($finger);
+   $finger = $finger + $finger_increment + 2;
+}
 
 
 sub dump_level {
 
-   my $local_finger = $finger;  # ghost finger for inside this level
+   # my $local_finger = $finger;  # ghost finger for inside this level
+   my $local_finger = $_[0];  # ghost finger for inside this level
 
    # get byte offset to next level
    #
@@ -66,7 +77,7 @@ sub dump_level {
    $local_finger++;
 
    my $level_number = lohi($level_lo, $level_hi);
-   print "Surprise! Level number is truly $level_number\n";
+   # print "Surprise! Level number is truly $level_number\n";
 
    # next two bytes are the time limit in seconds ( 0 means no limit )
    #
@@ -95,7 +106,7 @@ sub dump_level {
    my $mystery1hi = substr $buffer, $local_finger, 1;
    $local_finger++;
    my $mystery1 = lohi($mystery1lo, $mystery1hi);
-   print "Mystery 1: $mystery1\n";
+   # print "Mystery 1: $mystery1\n";
    
    # floor map section 1 (maybe)?
    #
@@ -104,7 +115,7 @@ sub dump_level {
    my $floorjump1hi = substr $buffer, $local_finger, 1;
    $local_finger++;
    my $floorjump1 = lohi($floorjump1lo, $floorjump1hi);
-   print "First floor jump is $floorjump1 bytes\n";
+   # print "First floor jump is $floorjump1 bytes\n";
 
    $local_finger = $local_finger + $floorjump1;  # yoink
 
@@ -115,7 +126,7 @@ sub dump_level {
    my $floorjump2hi = substr $buffer, $local_finger, 1;
    $local_finger++;
    my $floorjump2 = lohi($floorjump2lo, $floorjump2hi);
-   print "Second floor jump is $floorjump2 bytes\n";
+   # print "Second floor jump is $floorjump2 bytes\n";
 
    $local_finger = $local_finger + $floorjump2;  # yoink
 
@@ -126,20 +137,20 @@ sub dump_level {
    my $mystery3hi = substr $buffer, $local_finger, 1;
    $local_finger++;
    my $mystery3 = lohi($mystery3lo, $mystery3hi);
-   print "Mystery 3: $mystery3\n";
+   # print "Mystery 3: $mystery3\n";
 
    # fishing for a 3 (level name text indicator?)
    #
    my $find3 = ord(substr $buffer, $local_finger, 1);
    $local_finger++;
-   print "Found $find3, looking for 3\n";
+   # print "Found $find3, looking for 3\n";
    
    # length of text for level name is one byte
    # this length includes the null terminator byte
    #
    my $lvlname_length = ord(substr $buffer, $local_finger, 1);
    $local_finger++;
-   print "Length of level name is $lvlname_length\n";
+   # print "Length of level name is $lvlname_length\n";
 
    print "Level name: ";
    for (my $i=1;$i<$lvlname_length;$i++) {
@@ -156,7 +167,7 @@ sub dump_level {
    # first level that does not have help text.
    #
    my $find7 = ord(substr $buffer, $local_finger, 1);
-   print "Found $find7, looking for 7 (help text indicator)\n";
+   # print "Found $find7, looking for 7 (help text indicator)\n";
 
    if ($find7 == 7) {
 
@@ -167,7 +178,7 @@ sub dump_level {
       #
       my $helptext_length = ord(substr $buffer, $local_finger, 1);
       $local_finger++;
-      print "Length of help text is $helptext_length\n";
+      # print "Length of help text is $helptext_length\n";
 
       print "Help text: ";
       for (my $j=1;$j<$helptext_length;$j++) {
@@ -183,14 +194,14 @@ sub dump_level {
    #
    my $find6 = ord(substr $buffer, $local_finger, 1);
    $local_finger++;
-   print "Found $find6, looking for 6\n";
+   # print "Found $find6, looking for 6\n";
 
    # length of text for password is one byte
    # this length includes the null terminator byte
    #
    my $password_length = ord(substr $buffer, $local_finger, 1);
    $local_finger++;
-   print "Length of password is $password_length\n";
+   # print "Length of password is $password_length\n";
 
    print "Password: ";
    for (my $k=1;$k<$password_length;$k++) {
@@ -203,12 +214,18 @@ sub dump_level {
    print "\n";
    $local_finger++; # skip the null terminator at the end
  
-   # MOMENT OF TRUTH: update global pointer into binary wad
-   $finger = $local_finger;
-   $hexfinger = sprintf("0x%X", $finger);
-   print "Next level starts at absolute offset $finger ( $hexfinger )\n";
+#   # MOMENT OF TRUTH: update global pointer into binary wad
+#   $finger = $local_finger;
+#   $hexfinger = sprintf("0x%X", $finger);
+#   print "Next level starts at absolute offset $finger ( $hexfinger )\n";
 
    print "==============================\n";
+
+   # pass back the jump distance to the next level
+   # (or, the size of this level, depending on how
+   # you look at it, I guess)
+   #
+   return $offset;
 
 } # end of subroutine dump_level
 
